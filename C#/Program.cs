@@ -71,7 +71,7 @@ namespace TestingAuth.Sample.Api.Get
     {
         public static Environment Production = new Environment
         {
-            BaseUrl = "https://api.veritasvaccines.com",
+            BaseUrl = "https://api.veritas.healthcare",
             Scope = "https://veritastestingb2c.onmicrosoft.com/1d22859f-da06-4709-bb33-0bab942d8443/.default"
         };
         public static Environment Test = new Environment
